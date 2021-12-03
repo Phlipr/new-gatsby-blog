@@ -19,7 +19,7 @@ const IndexPage = ({ data }) => (
   <Layout>
     <div>
       <h1>Phillip's Thoughts</h1>
-      <h4>{data.allMarkdownRemark.totalCount}</h4>
+      <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
       {
         data.allMarkdownRemark.edges.map(({ node }) => (
           <div>
